@@ -30,7 +30,7 @@ public class Notes {
 		
 		grades.add(1,233);
 		System.out.println(grades);
-		
+	
 		grades.set(2,43);
 		System.out.println(grades);
 		//set就是替换
