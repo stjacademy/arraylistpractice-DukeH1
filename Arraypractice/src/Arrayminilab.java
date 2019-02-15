@@ -4,10 +4,11 @@ public class Arrayminilab {
 
 	public static void main(String[] args) {
 		ArrayList<Integer> roy = getListOfFactors(36);
-		getListOfFactors(36);
+		System.out.println(roy);
+
 		keepOnlyCompositeNumbers(roy);
-		System.out.println(getListOfFactors(36));
-		System.out.println(keepOnlyCompositeNumbers(roy));
+		
+		System.out.println(roy);
 		
 		
 		
@@ -34,7 +35,7 @@ public class Arrayminilab {
 		 
 		  public static void keepOnlyCompositeNumbers( ArrayList<Integer> nums )
 		  {
-			  for(int i = 2; i<nums.size(); i ++) {
+			  for(int i = 0; i<nums.size(); i ++) {
 				  if(getListOfFactors(nums.get(i)).size()==0) {
 					  nums.remove(i);
 					  i--;
